@@ -1,0 +1,20 @@
+<div class="row mb-2">
+    {% for post in include.collection limit:2 %}
+    <div class="col-md-6">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-success">{{post.tags}}</strong>
+          <h3 class="mb-0">{{post.title}}</h3>
+          <div class="mb-1 text-muted">{{post.date | date: '%B %d, %Y'}}</div>
+          <p class="card-text mb-auto">{{post.desc}}</p>
+          <a href="{{ post.url | relative_url }}" class="stretched-link">Continuez la lecture...</a>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          <img src="/assets/images/{{post.img}}"   alt="article_img" width="200" height="250" focusable="false">
+
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+
+  </div>

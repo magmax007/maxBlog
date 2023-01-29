@@ -1,0 +1,16 @@
+- name: Home
+  link: /
+- name: Monde
+  link: #
+- name: Technologie
+  link: #
+- name: Cloud
+  link: /cloud
+- name: Santé
+  link: #
+- name: Voyage
+  link: #
+- name: Autres
+  link: #
+- name: A propos
+  link: /about
