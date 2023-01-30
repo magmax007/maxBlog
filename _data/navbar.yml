@@ -1,16 +1,16 @@
 - name: Home
   link: /
-- name: Monde
-  link: #
-- name: Technologie
-  link: #
 - name: Cloud
   link: /cloud
+- name: Technologie
+  link: #
+- name: Transport
+  link: #
 - name: Santé
   link: #
-- name: Voyage
+- name: Education
   link: #
-- name: Autres
+- name: Agriculture
   link: #
 - name: A propos
   link: /about
